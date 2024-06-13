@@ -78,14 +78,15 @@ section{
 .home-content{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    text-align-last: left;
+    align-items:baseline;
+    text-align: left;
     justify-content: center;
     margin-top: 3rem;
 
 }
 span{
     color: var(--main-color);
+    padding-left: 2rem;
 }
 .logo span{
      color: var(--main-color);
@@ -108,6 +109,7 @@ span{
     position: relative;
     top: 3rem;
     width: 32vw;
+    height: 50vh;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -123,7 +125,7 @@ span{
     line-height: 1.8;
     max-width: 1000px;
 }
-.social-icons{
+.social-icons a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
